@@ -1,0 +1,2 @@
+Open CMD and run
+"mvn spring-boot:run"
