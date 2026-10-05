@@ -1,2 +1,15 @@
 Open CMD and run
 "mvn spring-boot:run"
+
+postgres=# \l
+                                                                          List of databases
+        Name        |  Owner   | Encoding | Locale Provider |           Collate           |            Ctype            | Locale | ICU Rules |   Access privileges
+--------------------+----------+----------+-----------------+-----------------------------+-----------------------------+--------+-----------+-----------------------
+ postgres           | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           |
+ student_management | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           |
+ template0          | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           | =c/postgres          +
+                    |          |          |                 |                             |                             |        |           | postgres=CTc/postgres
+ template1          | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           | =c/postgres          +
+                    |          |          |                 |                             |                             |        |           | postgres=CTc/postgres
+ vehicle_hub        | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           |
+(5 rows)
