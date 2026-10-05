@@ -11,9 +11,9 @@
 	<groupId>com.studentmanagement</groupId>
 	<artifactId>studentmanagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
+	<name>Student Management</name>
+	<description>Student Management System</description>
+	<url>https://github.com/studentmanagement</url>
 	<licenses>
 		<license/>
 	</licenses>
