@@ -204,3 +204,24 @@ D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY 
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  7.635 s
 [INFO] Finished at: 2026-10-06T10:45:42+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.285 s
+[INFO] Finished at: 2026-10-06T10:51:06+03:00
