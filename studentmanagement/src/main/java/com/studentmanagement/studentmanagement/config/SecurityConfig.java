@@ -24,6 +24,7 @@ public class SecurityConfig {
         CustomUserDetailsService userDetailsService,
         JwtAuthenticationFilter jwtAuthenticationFilter) {
         this.userDetailsService = userDetailsService;
+        this.jwtAuthenticationFilter = jwtAuthenticationFilter;
     }
 
     // Password hashing
