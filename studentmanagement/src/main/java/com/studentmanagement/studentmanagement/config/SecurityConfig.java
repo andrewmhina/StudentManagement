@@ -80,6 +80,37 @@ public class SecurityConfig {
                         "/api/auth/logout"
                 ).permitAll()
 
+                        // View students
+                        .requestMatchers(
+                                org.springframework.http.HttpMethod.GET,
+                                "/api/students/**")
+                        .hasAnyRole(
+                                "ADMIN",
+                                "TEACHER",
+                                "STUDENT")
+
+                        // Create students
+                        .requestMatchers(
+                                org.springframework.http.HttpMethod.POST,
+                                "/api/students/**")
+                        .hasAnyRole(
+                                "ADMIN",
+                                "TEACHER")
+
+                        // Update students
+                        .requestMatchers(
+                                org.springframework.http.HttpMethod.PUT,
+                                "/api/students/**")
+                        .hasAnyRole(
+                                "ADMIN",
+                                "TEACHER")
+
+                        // Delete students
+                        .requestMatchers(
+                                org.springframework.http.HttpMethod.DELETE,
+                                "/api/students/**")
+                        .hasRole("ADMIN")
+
                 .anyRequest().authenticated()
             )
 
