@@ -517,3 +517,13 @@ D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY 
 [INFO] ------------------------------------------------------------------------
 [INFO] Total time:  6.808 s
 [INFO] Finished at: 2026-10-07T22:47:00+03:00
+
+
+Microsoft Windows [Version 10.0.17134.1726]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn spring-boot:run
+...
+    : Tomcat started on port 8080 (http) with context path '/'
+2026-10-07T23:25:57.941+03:00  INFO 3352 --- [studentmanagement] [  restartedMain] c.s.s.StudentmanagementApplication       : Started StudentmanagementApplication in 19.111 seconds (process running for 20.883)
+...
