@@ -527,3 +527,10 @@ D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY 
     : Tomcat started on port 8080 (http) with context path '/'
 2026-10-07T23:25:57.941+03:00  INFO 3352 --- [studentmanagement] [  restartedMain] c.s.s.StudentmanagementApplication       : Started StudentmanagementApplication in 19.111 seconds (process running for 20.883)
 ...
+
+RESULT:
+Status: 200 OK
+{
+    "accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc5MTQwNzQzMiwiZXhwIjoxNzkxNDA4MzMyfQ.ZuTFGq0joQgyj8uRn08QP8wF_2HFYPx42rrqURM0RGpE5jh5hkMTFAamwtLvM6yN",
+    "refreshToken":"0d82370f-f114-425e-905c-757517167fd3"
+}
