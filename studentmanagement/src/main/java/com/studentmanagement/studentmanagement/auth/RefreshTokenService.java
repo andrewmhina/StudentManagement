@@ -20,6 +20,7 @@ public class RefreshTokenService {
         this.refreshTokenRepository = refreshTokenRepository;
     }
 
+    @Transactional
     public RefreshToken createRefreshToken(User user) {
 
         // Remove old refresh tokens for this user
