@@ -111,6 +111,10 @@ public class SecurityConfig {
                                 "/api/students/**")
                         .hasRole("ADMIN")
 
+                         // Manage users - ADMIN only
+                        .requestMatchers("/api/users/**")
+                        .hasRole("ADMIN")
+
                 .anyRequest().authenticated()
             )
 
