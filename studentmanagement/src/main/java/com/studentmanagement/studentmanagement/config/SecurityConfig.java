@@ -92,6 +92,7 @@ public class SecurityConfig {
                         // Create students
                         .requestMatchers(
                                 org.springframework.http.HttpMethod.POST,
+                                "/api/students",
                                 "/api/students/**")
                         .hasAnyRole(
                                 "ADMIN",
