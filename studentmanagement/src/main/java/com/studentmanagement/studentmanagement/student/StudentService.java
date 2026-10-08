@@ -89,6 +89,7 @@ public class StudentService {
     }
 
     // DELETE
+    @Transactional
     public void deleteStudent(Long id) {
 
         Student student =
