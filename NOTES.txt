@@ -616,3 +616,8 @@ Status: 200 OK
     "id":2
 }
 Then click "Save"
+
+RESULT:
+Status: 200 OK
+Student deleted successfully
+Then click "Save"
