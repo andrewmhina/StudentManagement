@@ -581,3 +581,15 @@ Status: 200 OK
         "id":2
     }
 ]
+
+RESULT:
+Status: 200 OK
+{
+    "registrationNumber":"STU002",
+    "fullName":"Mary Joseph",
+    "email":"mary.joseph@gmail.com",
+    "phone":"0751234567",
+    "gender":"Female",
+    "dateOfBirth":"2003-08-20",
+    "id":2
+}
