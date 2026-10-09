@@ -593,3 +593,13 @@ Status: 200 OK
     "dateOfBirth":"2003-08-20",
     "id":2
 }
+
+JSON
+{
+    "registrationNumber": "STU002",
+    "fullName": "Mary Joseph Updated",
+    "email": "mary.joseph@gmail.com",
+    "phone": "0751234567",
+    "gender": "Female",
+    "dateOfBirth": "2003-08-20"
+}
