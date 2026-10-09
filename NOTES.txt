@@ -538,3 +538,10 @@ Status: 200 OK
 D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn spring-boot:run
  : Tomcat started on port 8080 (http) with context path '/'
   : Started StudentmanagementApplication in 13.185 seconds
+
+RESULT:
+Status: 200 OK
+{
+    "accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc5MTUzNTIwMSwiZXhwIjoxNzkxNTM2MTAxfQ.xrOGlvsnoPpBvYLcMPWFYmg-OvJ3cIGckL8x1OJJDmd0CtvmhMP4esc-u46U3NOw",
+    "refreshToken":"853f1f98-a595-4dfb-aba4-7ae0b9928098"
+}
