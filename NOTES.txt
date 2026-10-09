@@ -545,3 +545,13 @@ Status: 200 OK
     "accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc5MTUzNTIwMSwiZXhwIjoxNzkxNTM2MTAxfQ.xrOGlvsnoPpBvYLcMPWFYmg-OvJ3cIGckL8x1OJJDmd0CtvmhMP4esc-u46U3NOw",
     "refreshToken":"853f1f98-a595-4dfb-aba4-7ae0b9928098"
 }
+
+JSON 
+{
+    "registrationNumber": "STU002",
+    "fullName": "Mary Joseph",
+    "email": "mary.joseph@gmail.com",
+    "phone": "0751234567",
+    "gender": "Female",
+    "dateOfBirth": "2003-08-20"
+}
