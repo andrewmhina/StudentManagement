@@ -639,3 +639,13 @@ Status: 200 OK
     "email":"teststudent01@gmail.com",
     "role":"STUDENT"
 }
+
+Test duplicate registration
+Your assignment requires the API to reject duplicate usernames or email addresses.
+1. Keep the same Register User request open.
+2. Leave the username, email, and password exactly as they are.
+3. Click Send again.
+This tests whether the API prevents registering teststudent01 twice.
+
+Status: 400 Bad request
+{"error":"Username already exists"}
