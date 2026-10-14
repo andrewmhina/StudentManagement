@@ -621,3 +621,6 @@ RESULT:
 Status: 200 OK
 Student deleted successfully
 Then click "Save"
+
+CREATE THE REGISTER USER REQUEST
+POST http://localhost:8080/api/auth/register
