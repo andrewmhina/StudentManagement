@@ -649,3 +649,18 @@ This tests whether the API prevents registering teststudent01 twice.
 
 Status: 400 Bad request
 {"error":"Username already exists"}
+
+Test duplicate email validation
+We have tested duplicate usernames. Now let's check whether your API also rejects an email address 
+that is already registered.
+Use a new username but an email belonging to an existing user.
+
+JSON
+{
+  "username": "emailtest01",
+  "email": "teststudent01@gmail.com",
+  "password": "Student123"
+}
+
+Status: 400 Bad request
+{"error":"Email already exists"}
