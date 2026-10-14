@@ -664,3 +664,15 @@ JSON
 
 Status: 400 Bad request
 {"error":"Email already exists"}
+
+Test login with an incorrect password
+Now we will verify that an existing user cannot log in using the wrong password.
+
+JSON
+{
+  "username": "admin",
+  "password": "WrongPassword123"
+}
+
+Status: 400 Bad request
+{"error":"Bad credentials"}
