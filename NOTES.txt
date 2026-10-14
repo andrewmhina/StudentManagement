@@ -631,3 +631,11 @@ JSON
   "email": "teststudent01@gmail.com",
   "password": "Test12345"
 }
+
+Status: 200 OK
+{
+    "id":4,
+    "username":"teststudent01",
+    "email":"teststudent01@gmail.com",
+    "role":"STUDENT"
+}
